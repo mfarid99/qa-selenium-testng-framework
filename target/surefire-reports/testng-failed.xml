@@ -3,11 +3,11 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="tests.CreateUserTest">
+      <class name="tests.CreateUsersFromCSVTest">
         <methods>
-          <include name="testUserLogin"/>
+          <include name="createUserFromCSV" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- tests.CreateUserTest -->
+      </class> <!-- tests.CreateUsersFromCSVTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

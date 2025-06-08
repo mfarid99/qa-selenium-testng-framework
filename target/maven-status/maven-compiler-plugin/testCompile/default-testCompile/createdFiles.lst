@@ -1,5 +1,6 @@
 tests/UserApiTest.class
 tests/CreateUserTest.class
-pages/LoginPage.class
 tests/LoginTest.class
+tests/CreateUsersFromCSVTest.class
+pages/LoginPage.class
 base/BaseTest.class
